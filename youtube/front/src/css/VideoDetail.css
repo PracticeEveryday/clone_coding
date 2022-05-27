@@ -1,0 +1,129 @@
+.container{
+    padding: 10px;
+}
+
+.video-detail .details{
+    margin-top: 10px;
+    padding: 10px;
+    border : 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.iconButton{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.video-detail video{
+    margin-top: 15px;
+}
+
+.list-group{
+    margin-top: 15px;
+}
+
+.list-group-item{
+    cursor:pointer;
+}
+
+.list-group-item img{
+    max-width: 64px;
+}
+
+.list-group-item:hover{
+    background-color: #eee;
+}
+
+.writer{
+    display: flex;
+    flex-direction: row;
+}
+
+.writer > .MuiAvatar-root{
+    margin-top: 8px;
+}
+
+.subscribeButton{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.subscribeButton.subscribe{
+    background-color: #ececec;
+    color: #606060;
+}
+
+.subscriber{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    flex-basis: 1e-9px;
+    margin-left: 10px;
+}
+
+.subscriberCount{
+    color: #a2a2a2;
+}
+
+.title{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.subscriber .subscriberCount{
+    margin: 0;
+    padding: 0;
+}
+
+.subscriber > .channelName{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btnWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.commentButtonWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.commentButtonWrapper button{
+    border: none;
+    background-color: #065fd4;
+    color: white;
+    border-radius: 5px;
+    width: 75px;
+    height: 35px;
+}
+.noneComment{
+    display: flex;
+    justify-content: center;
+}
+
+.commentsWrapper{
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.writerInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 13px;
+}
